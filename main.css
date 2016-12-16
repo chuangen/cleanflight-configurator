@@ -834,6 +834,17 @@ li.active .ic_osd {
 li.active .ic_failsafe {
     background-image: url(images/icons/cf_icon_failsafe_white.svg);
 }
+.ic_esc {
+    background-image: url(images/icons/cf_icon_esc_grey.svg);
+}
+
+.ic_esc:hover {
+    background-image: url(images/icons/cf_icon_esc_white.svg);
+}
+
+li.active .ic_esc {
+    background-image: url(images/icons/cf_icon_esc_white.svg);
+}
 .ic_backup {
     background-image: url(images/icons/cf_icon_backup_grey.svg);
 }
@@ -1460,7 +1471,7 @@ dialog {
 }
 
 /* fixing padding for all Tabs*/
-.tab-setup, .tab-landing, .tab-adjustments, .tab-auxiliary, .tab-cli, .tab-configuration, .tab-failsafe, .tab-onboard_logging,
+.tab-setup, .tab-landing, .tab-adjustments, .tab-auxiliary, .tab-cli, .tab-configuration, .tab-failsafe, .tab-esc, .tab-onboard_logging,
     .tab-firmware_flasher, .tab-gps, .tab-help, .tab-led-strip, .tab-logging, .tab-modes, .tab-motors, .tab-pid_tuning,
     .tab-ports, .tab-receiver, .tab-sensors, .tab-servos, .tab-osd {
     height: 100%;
@@ -1676,6 +1687,7 @@ dialog {
 
 .armedicon,
 .failsafeicon, 
+.escicon, 
 .linkicon {
     float: left;
     margin-left: 8px;
@@ -1695,6 +1707,9 @@ dialog {
 }
 .failsafeicon {
     background-image: url(images/icons/cf_icon_failsafe_grey.svg);
+}
+.escicon {
+    background-image: url(images/icons/cf_icon_esc_grey.svg);
 }
  
 .linkicon {

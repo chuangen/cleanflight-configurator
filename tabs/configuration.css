@@ -277,6 +277,10 @@
     width: 30px;
 }
 
+.tab-configuration .rxEsc td:nth-child(2) {
+    width: 30px;
+}
+
 .tab-configuration .gps td:nth-child(2) {
     width: 38px;
 }

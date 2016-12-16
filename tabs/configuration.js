@@ -134,6 +134,7 @@ TABS.configuration.initialize = function (callback, scrollPosition) {
             {bit: 6, group: 'other', name: 'SOFTSERIAL', haveTip: true},
             {bit: 7, group: 'gps', name: 'GPS', haveTip: true},
             {bit: 8, group: 'rxFailsafe', name: 'FAILSAFE'},
+            {bit: 23, group: 'rxEsc', name: 'ESC'},
             {bit: 9, group: 'other', name: 'SONAR'},
             {bit: 10, group: 'other', name: 'TELEMETRY'},
             {bit: 11, group: 'batteryCurrent', name: 'CURRENT_METER'},

@@ -84,6 +84,9 @@
     "tabFailsafe": {
         "message": "Failsafe"
     },
+    "tabEsc": {
+        "message": "ESC Programming"
+    },
     "tabTransponder": {
         "message": "Race Transponder"
     },
@@ -482,6 +485,9 @@
     },
     "featureFAILSAFE": {
         "message": "Apply failsafe settings on RX signal loss"
+    },
+    "featureESC": {
+        "message": "Apply esc settings on RX signal loss"
     },
     "featureSONAR": {
         "message": "Sonar"
@@ -1655,6 +1661,92 @@
     },
     "failsafeKillSwitchHelp": {
         "message": "Set this option to make the failsafe switch, configured in the modes tab, act as a direct kill switch, bypassing the selected failsafe procedure. <strong>Note:</strong> Arming is blocked with the failsafe kill switch in the ON position"
+    },
+
+
+    "escFeaturesHelpOld": {
+        "message": "Failsafe configuration has changed considerably. Use Cleanflight <strong>v1.12.0+</strong> to enable the improved configuration panel."
+    },
+    "escPaneTitleOld": {
+        "message": "Receiver esc"
+    },
+    "escFeatureItemOld": {
+        "message": "Failsafe settings on RX signal loss"
+    },
+    "escThrottleItemOld": {
+        "message": "Failsafe Throttle"
+    },
+    "escFeaturesHelpNew": {
+        "message": "<strong>Note:</strong> Make sure you've taken the propellers OFF before doing anything on this tab.<br /><strong>Note:</strong> Connect power to the ESCs."
+    },
+    "escPulsrangeTitle": {
+        "message": "Common Parameters"
+    },
+    "escPulsrangeHelp": {
+        "message": "Pulses shorter than minimum or longer than maximum are invalid and will trigger application of individual channel fallback settings for AUX channels or entering stage 1 for flightchannels"
+    },
+    "escRxMinUsecItem": {
+        "message": "Minimum length"
+    },
+    "escRxMaxUsecItem": {
+        "message": "Maximum length"
+    },
+    "escChannelFallbackSettingsTitle": {
+        "message": "Advanced Parameters"
+    },
+    "escChannelFallbackSettingsHelp": {
+        "message": "These settings are applied to invalid individual AUX channels or to all channels when entering stage 1. <strong>Note:</strong> values are saved in steps of 25usec, so small changes disappear"
+    },
+    "escChannelFallbackSettingsAuto": {
+        "message": "<strong>Auto</strong> means Roll, Pitch and Yaw to center and Throttle low. <strong>Hold</strong> means maintain the last good value received"
+    },
+    "escChannelFallbackSettingsHold": {
+        "message": "<strong>Hold</strong> means maintain the last good value received. <strong>Set</strong> means the value given here will be used"
+    },
+    "escStageTwoSettingsTitle": {
+        "message": "ESC #1 - SENSEHOBBY X24A"
+    },
+    "escFeatureItem": {
+        "message": "Failsafe Stage 2 enabled"
+    },
+    "escFeatureHelp": {
+        "message": "<strong>Note:</strong> When Stage 2 is DISABLED, the fallback setting <strong>Auto</strong> is used instead of the user settings for all flightchannels (Roll, Pitch, Yaw and Throttle)."
+    },
+    "escDelayItem": {
+        "message": "Guard time for stage 2 activation after signal lost [1 = 0.1 sec.]"
+    },
+    "escDelayHelp": {
+        "message": "Time for stage 1 to wait for recovery"
+    },
+    "escThrottleLowItem": {
+        "message": "Failsafe Throttle Low Delay [1 = 0.1 sec.]"
+    },
+    "escThrottleLowHelp": {
+        "message": "Just disarm the craft instead of executing the selected esc procedure when the throttle was low for this amount of time"
+    },
+    "escThrottleItem": {
+        "message": "Throttle value used while landing"
+    },
+    "escOffDelayItem": {
+        "message": "Delay for turning off the Motors during Failsafe [1 = 0.1 sec.]"
+    },
+    "escOffDelayHelp": {
+        "message": "Time to stay in landing mode untill the motors are turned off and the craft is disarmed"
+    },
+    "escSubTitle1": {
+        "message": "Stage 2 - Failsafe Procedure"
+    },
+    "escProcedureItemSelect1": {
+        "message": "Land"
+    },
+    "escProcedureItemSelect2": {
+        "message": "Drop"
+    },
+    "escKillSwitchItem": {
+        "message": "Failsafe Kill Switch (setup Failsafe in Modes Tab)"
+    },
+    "escKillSwitchHelp": {
+        "message": "Set this option to make the esc switch, configured in the modes tab, act as a direct kill switch, bypassing the selected esc procedure. <strong>Note:</strong> Arming is blocked with the esc kill switch in the ON position"
     },
 
     "mainHelpArmed": {

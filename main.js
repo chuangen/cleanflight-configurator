@@ -129,6 +129,9 @@ $(document).ready(function () {
                     case 'failsafe':
                         TABS.failsafe.initialize(content_ready);
                         break;
+                    case 'esc':
+                        TABS.esc.initialize(content_ready);
+                        break;
                     case 'transponder':
                         TABS.transponder.initialize(content_ready);
                         break;

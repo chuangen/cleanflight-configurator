@@ -1,0 +1,137 @@
+<div class="tab-esc toolbar_fixed_bottom">
+    <div class="content_wrapper">
+        <div class="tab_title">ESC Programming</div>
+        <div class="cf_doc_version_bt">
+            <a id="button-documentation" href="https://github.com/cleanflight/cleanflight/releases" target="_blank"></a>
+        </div>
+        <div class="note newpane">
+            <div class="note_spacer">
+                <p i18n="escFeaturesHelpNew"></p>
+                </p>
+            </div>
+        </div>
+        <div class="note oldpane">
+            <div class="note_spacer">
+                <p i18n="escFeaturesHelpOld"></p>
+                </p>
+            </div>
+        </div>
+        <div class="leftWrapper">
+            <div class="gui_box grey oldpane">
+                <div class="gui_box_titlebar">
+                    <div class="spacer_box_title" i18n="escPaneTitleOld"></div>
+                </div>
+                <div class="spacer_box">
+                    <div class="checkbox">
+                        <div class="numberspacer" >
+                            <input type="checkbox" name="esc_feature" class="feature toggle rxEsc" id="esc_feature" />
+                        </div>
+                        <label for="esc_feature"><span i18n="escFeatureItemOld"></span>
+                        </label>
+                    </div>
+                    <div class="number">
+                        <label> <input type="number" name="esc_throttle_old" min="0" max="2000" /> <span
+                            i18n="escThrottleItemOld"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="gui_box grey newpane">
+                <div class="gui_box_titlebar">
+                    <div class="spacer_box_title" i18n="escPulsrangeTitle"></div>
+                    <div class="helpicon cf_tip" i18n_title="escPulsrangeHelp"></div>
+                </div>
+                <div class="spacer_box">
+                    <div class="number">
+                        <label> <input type="number" name="rx_min_usec" min="750" max="2250" /> <span
+                            i18n="escRxMinUsecItem"></span>
+                        </label>
+                    </div>
+                    <div class="number">
+                        <label> <input type="number" name="rx_max_usec" min="750" max="2250" /> <span
+                            i18n="escRxMaxUsecItem"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="gui_box grey stage1 newpane">
+                <div class="gui_box_titlebar">
+                    <div class="spacer_box_title" i18n="escChannelFallbackSettingsTitle"></div>
+                    <div class="helpicon cf_tip" i18n_title="escChannelFallbackSettingsHelp"></div>
+                </div>
+                <div class="spacer_box">
+                    <div class="activechannellist">
+                        <!-- list generated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightWrapper">
+            <div class="gui_box grey newpane">
+                <div class="gui_box_titlebar">
+                    <div class="spacer_box_title" i18n="escStageTwoSettingsTitle"></div>
+                </div>
+                <div class="spacer_box">
+                    <div class="checkbox">
+                        <div class="numberspacer" >
+                            <input type="checkbox" name="esc_feature_new" class="feature toggle rxEsc" id="esc_feature_new" />
+                        </div>
+                        <label for="esc_feature_new"><span i18n="escFeatureItem"></span>
+                        </label>
+                        <div class="helpicon cf_tip" i18n_title="escFeatureHelp"></div>
+                    </div>
+                    <div class="checkbox stage2">
+                        <div class="numberspacer" >
+                            <input type="checkbox" name="esc_kill_switch" class="toggle" id="esc_kill_switch" />
+                        </div>
+                        <label for="esc_kill_switch"><span i18n="escKillSwitchItem"></span>
+                        </label>
+                        <div class="helpicon cf_tip" i18n_title="escKillSwitchHelp"></div>
+                    </div>
+                    <div class="number stage2">
+                        <label> <input type="number" name="esc_delay" min="0" max="200" /> <span
+                            i18n="escDelayItem"></span>
+                        </label>
+                        <div class="helpicon cf_tip" i18n_title="escDelayHelp"></div>
+                    </div>
+                    <div class="number stage2">
+                        <label> <input type="number" name="esc_throttle_low_delay" min="0" max="2000" /> <span
+                            i18n="escThrottleLowItem"></span>
+                        </label>
+                        <div class="helpicon cf_tip" i18n_title="escThrottleLowHelp"></div>
+                    </div>
+                    <!-- radio buttons  -->
+                    <div class="subline stage2" i18n="escSubTitle1"></div>
+                    <div class="radioarea pro1 stage2">
+                        <div class="radiobuttons"><input class="procedure" id="drop" name="group1" type="radio"/>
+                            <label for="drop" i18n="escProcedureItemSelect2"></label>
+                        </div>
+                    </div>
+                    <div class="radioarea pro2 stage2">
+                        <div class="radiobuttons"><input class="procedure" id="land" name="group1" type="radio" checked/>
+                            <label for="land" i18n="escProcedureItemSelect1"></label>
+                        </div>
+                        <div class="proceduresettings">
+                            <div class="number">
+                                <label> <input type="number" name="esc_throttle" min="0" max="2000" /> <span
+                                    i18n="escThrottleItem"></span>
+                                </label>
+                            </div>
+                            <div class="number">
+                                <label> <input type="number" name="esc_off_delay" min="0" max="2000" /> <span
+                                    i18n="escOffDelayItem"></span>
+                                </label>
+                                <div class="helpicon cf_tip" i18n_title="escOffDelayHelp"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_toolbar">
+        <div class="btn save_btn">
+            <a class="save" href="#" i18n="configurationButtonSave"></a>
+        </div>
+    </div>
+</div>

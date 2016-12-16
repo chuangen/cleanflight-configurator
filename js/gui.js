@@ -21,6 +21,7 @@ var GUI_control = function () {
         'setup',
         'setup_osd',
         'failsafe',
+        'esc',
         'transponder',
         'osd_configuration',
         'osd_layout',

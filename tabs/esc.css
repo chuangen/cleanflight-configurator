@@ -1,0 +1,257 @@
+.tab-esc {
+    position: relative;
+}
+
+.tab-esc .leftWrapper {
+    float: left;
+    width: calc(50% - 20px);
+}
+
+.tab-esc .rightWrapper {
+    float: left;
+    width: calc(50% - 0px);
+    margin: 0 0 0 20px;
+}
+
+.tab-esc .number {
+    margin-bottom: 5px;
+    clear: left;
+}
+
+.tab-esc .number input {
+    width: 50px;
+    padding-left: 3px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin-right: 11px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tab-esc .number input:disabled {
+    background-color: #ececec;
+}
+
+.tab-esc .number span {
+    margin-left: 0;
+}
+
+.tab-esc .checkbox {
+    float: left;
+    width: 100%;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 0;
+}
+
+.tab-esc .subline {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.tab-esc .radioarea {
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ededed;
+    margin-bottom: 0;
+    margin-top: 5px;
+    height: 150px;
+}
+
+.tab-esc .radiobuttons {
+    float: left;
+    width: 50%;
+    margin-top: 38px;
+    margin-left: 15px;
+    font-size: 12px;
+    font-family: 'open_sansregular', sans-serif;
+}
+
+.tab-esc .radiobuttons input {
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.tab-esc .proceduresettings {
+    padding: 10px;
+    margin-top: 75px;
+}
+
+.tab-esc .radiobuttons label {
+    float: left;
+    width: 130px;
+    margin-top: -2px;
+}
+
+.tab-esc .pro1 {
+    background-image: url(../images/icons/cf_esc_procedure1.svg);
+    background-position: top right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.tab-esc .pro2 {
+    background-image: url(../images/icons/cf_esc_procedure2.svg);
+    background-position: top right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.tab-esc .pro3 {
+    background-image: url(../images/icons/cf_esc_procedure3.svg);
+    background-position: top right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.tab-esc .pro4 {
+    background-image: url(../images/icons/cf_esc_procedure4.svg);
+    background-position: top right 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.tab-esc .spacer_box .helpicon {
+    margin-top: 3px;
+    margin-right: 0;
+    
+}
+
+.tab-esc .checkbox:last-child {
+    border-bottom: none;
+}
+
+.tab-esc .freelabel {
+    margin-left: 10px;
+    position: relative;
+}
+
+.tab-esc input {
+    float: left;
+}
+
+.tab-esc span {
+    margin: 0;
+}
+
+.tab-esc .spacer_box {
+    padding-bottom: 10px;
+    float: left;
+    width: calc(100% - 20px);
+}
+
+.tab-esc .number {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    float: left;
+}
+
+.tab-esc .number:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.tab-esc .gui_box_titlebar {
+    margin-bottom: 0;
+}
+
+.tab-esc .numberspacer {
+    float: left;
+    width: 65px;
+    height: 21px;
+}
+
+.tab-esc .gui_box {
+    font-style: normal;
+    font-family: 'open_sanssemibold', sans-serif;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.tab-esc .gui_box span {
+    font-style: normal;
+    font-family: 'open_sansregular', sans-serif;
+    line-height: 19px;
+    color: #4F4F4F;
+    font-size: 11px;
+}
+
+.tab-esc .stage1 .number input {
+    float: right;
+    margin-right: 0;
+ }
+    
+.tab-esc .stage1 select {
+    float: left;
+    width: 95%;
+    height: 22px;
+    margin: 0;
+    border: 1px solid silver;
+    }
+
+.tab-esc .modename {
+    background-color: #828885;
+    border-radius: 3px;
+    border: 1px solid #686c6a;
+    color: #fff !important;
+    font-weight: normal;
+    font-family: 'open_sanssemibold', sans-serif;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 3px;
+}
+
+.tab-esc .channelprimary {
+    float:left;   
+    width:60%;   
+}
+
+.tab-esc .channelauxiliary {
+    float:left;   
+    width:60%;
+    padding-top: 2px;
+}
+
+.tab-esc .channelname {
+    margin-right: 3px;
+}
+
+.tab-esc .channelsetting {
+    float:left;    
+    width:25%;    
+}
+
+.tab-esc .auxiliary {
+    float:left;    
+    width:15%;    
+}
+
+.tab-esc .note {
+    margin-bottom: 20px;
+}
+
+.tab-esc .cf_tooltiptext {
+    display: none;
+}
+
+.tab-esc .rightWrapper .spacer_box {
+    padding-bottom: 7px;
+}
+
+.tab-esc .pro1 {
+    height: 90px;
+}
+
+@media only screen and (max-width: 1055px) , only screen and (max-device-width: 1055px) {
+
+}
